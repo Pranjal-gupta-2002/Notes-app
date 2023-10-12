@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #7bdaf3;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.note{
+    margin : 20px;
+    background-color: #fff;
+    height: 400px;
+    width:400px;
+}
+.note .tools {
+    background-color: #9ec862;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.note .tools button{
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+button img{
+    background-color: #9ec862;
+    height: 20px;
+    width:20px;
+    cursor: pointer;
+}
+.note .main{
+    background-color: #fff;
+    height: 400px;
+    width: 100%;
+    font-size: 1.5rem;
+    overflow: hidden;
+    /* display: none; */
+}
+.note textarea{
+    font-size: 1.2rem;
+    height: 400px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.note .hidden{
+    display: none;
+}
+.add{
+    background-color: #9ec862;
+    border: 0;
+    color: white;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
